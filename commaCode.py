@@ -1,6 +1,6 @@
-spam = ['koty','myszy','konie']
+spam = ['cats','mouse','horse']
 
-def iplus(arg):
+def commaCode(arg):
 	if len(arg) > 1:
 		for i in range(len(arg)-2):
 			print((str(arg[i])) + ", ", end="")
@@ -10,4 +10,4 @@ def iplus(arg):
 	else:
 		print('*** empty list ***')
 
-iplus(spam)
+commaCode(spam)
